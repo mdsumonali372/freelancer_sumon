@@ -43,55 +43,54 @@ z-index: -1;
 }
 /* NAV BAR STAR*/
 nav {
-    overflow: hidden;
-    min-height: 50px;
-    padding: 0!important;
-    background: #111722;
-    border-bottom: 1px solid orange;
+overflow: hidden;
+min-height: 50px;
+padding: 0!important;
+background: #111722;
+border-bottom: 1px solid orange;
 }
 .logo {
-    float: left;
-    padding-top: 15px;
+float: left;
+padding-top: 15px;
 }
 .logo a {
-    color: #ffffff;
-    font-weight: 700;
+color: #ffffff;
+font-weight: 700;
 }
 .menu-list {list-style: none;margin: 0;overflow: hidden;float: right;line-height: 50px;}
 .menu-list li {
-    float: left;
+float: left;
 }
 .menu-list li a {
-    display: block;
-    padding: 10px 20px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 700;
+display: block;
+padding: 10px 20px;
+color: #ffffff;
+text-decoration: none;
+font-weight: 700;
 }
 .menu-list li a:hover {
-    color: orange;
+color: orange;
 }
 .menu-icon {
-    color: #fff;
-    font-weight: 700;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: none;
-    min-height: 50px;
+color: #fff;
+font-weight: 700;
+padding: 10px 20px;
+cursor: pointer;
+display: none;
+min-height: 50px;
 }
 i.fas.fa-bars.menu-bar {
-    float: right;
-    font-size: 30px;
+float: right;
+font-size: 30px;
 }
-
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background: #3A434B;
-    border: none;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
+background: #3A434B;
+border: none;
 }
 /* NAV BAR STAR*/
 .headter-title {
@@ -136,7 +135,7 @@ top: 0;
 background: rgba(0,0,0,0.5);
 }
 img.about-pic{
-    max-height: 720px;
+max-height: 720px;
 }
 .photo-text-social {
 text-align: center;
@@ -557,15 +556,13 @@ box-shadow: 0px 7px 46px 4px #ccc;
 }
 /*STATISTIC COUNTER END*/
 /*CONTACT START*/
-
 section#contact {
-    background: #111;
+background: #111;
 }
-
 .contact-form-title h2{
-    font-weight: 700;
-    position: relative;
-    color: #999;
+font-weight: 700;
+position: relative;
+color: #999;
 }
 .contact-form-title h2::after {
 content: '';
@@ -590,48 +587,48 @@ left: -40px;
 border-color: #b1282800 transparent #20629ef0 #dc595900;
 }
 .contact-form-content.text-center h4 {
-    font-size: 30px;
-    font-weight: 800;
-    color: #fff;
+font-size: 30px;
+font-weight: 800;
+color: #fff;
 }
 .form-input {
-    width: 100%;
-    border-radius: 0;
-    font-size: 13px;
-    min-width: auto;
-    letter-spacing: 1.4px;
-    box-sizing: border-box;
-    line-height: 1.6;
-    padding: 10px 15px!important;
-    height: 44px;
-    vertical-align: middle;
-    border: 1px solid #8e6868;
-    transition: all .3s ease;
-    background: #000;
-    color: #fff;
-    font-style: italic;
-    margin-bottom: 30px;
+width: 100%;
+border-radius: 0;
+font-size: 13px;
+min-width: auto;
+letter-spacing: 1.4px;
+box-sizing: border-box;
+line-height: 1.6;
+padding: 10px 15px!important;
+height: 44px;
+vertical-align: middle;
+border: 1px solid #8e6868;
+transition: all .3s ease;
+background: #000;
+color: #fff;
+font-style: italic;
+margin-bottom: 30px;
 }
 textarea#comments {
-    height: 120px;
+height: 120px;
 }
 button.btn.btn_custom.w-50 {background-color: #fff;color: #000;padding: 19px 40px;width: 30%!important;}
 button.btn.btn_custom.w-50:hover {
-    width: 40%!important;
-    letter-spacing: 4px;
-    transition: all .3s ease;
-    font-style: italic;
+width: 40%!important;
+letter-spacing: 4px;
+transition: all .3s ease;
+font-style: italic;
 }
 /* END CONTACT */
 /*footer start*/
 footer {
-    background: #000;
-    height: 50px;
-    overflow: hidden;
+background: #000;
+height: 50px;
+overflow: hidden;
 }
 .footer-copy p {
-    color: #bbb;
-    font-style: italic;
-    line-height: 50px;
+color: #bbb;
+font-style: italic;
+line-height: 50px;
 }
 /*end footer*/
